@@ -1,0 +1,35 @@
+
+.rides-coming-soon-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-logo img {
+    height: auto;
+    max-width: 100%;
+    padding-left: 15%;
+    text-align: center;
+    display: block;
+    /* border: 1px solid black; */
+}
+
+.rides-coming-soon-container h1 {
+    font-size: 90px;
+    position: relative;
+    /* display: inline-block; */
+    color: rgb(3, 21, 113);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 4%;
+    /* margin: 10px auto; */
+}
+
+.rides-coming-soon-container p {
+    font-size: 140%;
+    color: gray;
+    padding-top: 10%;
+    text-align: center;
+}
