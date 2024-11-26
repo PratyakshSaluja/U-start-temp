@@ -1,14 +1,22 @@
-import './App.css'
-import RidesComingSoon from './ComingSoon.jsx'
-import RidesComingNav from './RidesComingNav.jsx'
+import React from 'react';
+import './App.css';
+import Home from './Home.jsx'
+import PrivacyPolicy from './Privacy.jsx';
+import { BrowserRouter, Routes, Route} from "react-router-dom"
+
+
 function App() {
-  return(
-    <div className=''>
-      <RidesComingNav/>
-      <RidesComingSoon/>
-    </div>
-    
-  )
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path = "/" element = {<Home/>}/>
+          <Route path = "/privacy-policy" element = {<PrivacyPolicy/>}/>
+        </Routes>
+      </BrowserRouter>
+      </div>
+  );
 }
 
-export default App
+export default App;
+

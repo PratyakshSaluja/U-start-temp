@@ -13,7 +13,11 @@ function Rides_Coming_Nav () {
             </div>
             <div className="whatsapp-link">
                 <a href="https://chat.whatsapp.com/GaUyo6vhz1KEJiPVexJgLq"><button> <FaWhatsapp size={20} color="green" /> <span>Join WhatsApp Group</span></button></a>
+                <div className = "privacy-policy"> 
+                <a href="/privacy-policy">Privacy policy</a>
             </div>
+            </div>
+            
         </div>
     )
 }
